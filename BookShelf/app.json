@@ -26,5 +26,6 @@
     "includeSourceInSymbolFile": true
   },
   "runtime": "12.0",
-  "features": ["NoImplicitWith"]
+  "features": ["NoImplicitWith", "TranslationFile"]
+  
 }

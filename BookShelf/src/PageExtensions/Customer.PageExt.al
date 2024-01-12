@@ -4,12 +4,12 @@ pageextension 50400 "CustomerCardBook.PageExt DX" extends "Customer Card"
     {
         addlast(General)
         {
-            field("Favourite Book No. DX";Rec."Favourite Book No. DX")
+            field("Favourite Book No."; Rec."Favourite Book No.")
             {
-                ApplicationArea=all;
-                TableRelation="Book DX";
+                ApplicationArea = all;
+                TableRelation = "Book DX";
             }
-            
+
         }
     }
 }

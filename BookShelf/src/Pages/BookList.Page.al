@@ -5,9 +5,9 @@ page 50401 "BookList DX"
     PageType = List;
     SourceTable = "Book DX";
     UsageCategory = Lists;
-    Editable=false;
-    CardPageId="BookCard DX";
-    
+    Editable = false;
+    CardPageId = "BookCard DX";
+
     layout
     {
         area(content)
@@ -25,6 +25,14 @@ page 50401 "BookList DX"
                 field(Author; Rec.Author)
                 {
                     ToolTip = 'Specifies the value of the Author field.';
+                }
+                field(Hardcover; Rec.Hardcover)
+                {
+                    ApplicationArea = All;
+                }
+                field("Page Count"; Rec."Page Count")
+                {
+                    ApplicationArea = All;
                 }
             }
         }
